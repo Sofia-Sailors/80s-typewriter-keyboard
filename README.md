@@ -13,7 +13,7 @@ I started by first figuring out the layout, using the online Keyboard Layout Edi
 Then, I researched how to design a PCB. Using KiCad and some videos (https://www.youtube.com/watch?v=7O8xGd7Pd88&t=2046s) I was able to grasp the basic concept of what I needed to do.
 
 # The Design(ing)
-Using the KLE design paired with the video, I got to work. The video does a good job at explaining the basics of what I need to do, but I wanted a different controller. I ended up turning back to the internet for ideas, namely in regards to Raspberry Pi Pico-powered keyboards. I ended up using zli117's Pico-Keyboard (https://github.com/zli117/Pico-Keyboard) as my base for wiring up the cnnections to the Pico. 
+Using the KLE design paired with the video, I got to work. I used the marbastlib keyboard library for KiCad along with the keebio(?) library. The video does a good job at explaining the basics of what I need to do, but I wanted a different controller. I ended up turning back to the internet for ideas, namely in regards to Raspberry Pi Pico-powered keyboards. I ended up using zli117's Pico-Keyboard (https://github.com/zli117/Pico-Keyboard) as my base for wiring up the cnnections to the Pico. 
 # Assembly + Programming
 I used JLC to manufacture the board and ordered parts from Adafruit and Digikey. I used kli117's PicoMK firmware (https://github.com/zli117/PicoMK) to programm the board.
 # Parts + Price
